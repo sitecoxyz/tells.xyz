@@ -1,4 +1,4 @@
---- !ruby/hash:ActionController::Parameters
+---
 port: '4000'
 host: 0.0.0.0
 safe: 'false'
@@ -8,21 +8,20 @@ timezone: ''
 lsi: 'false'
 markdown: kramdown
 highlighter: pygments
-title: SinglePaged - Simple Jekyll template
-keywords: SinglePaged, jekyll, template, github, blog, single page
-description: A single-page template for Jekyll based blogs (like what you'd use on
-  github pages!)
+title: Tells.xyz
+keywords: tells, poker
+description: A website for poker enthusiasts.
 source_link: https://github.com/t413/SinglePaged
 favicon: img/favicon.ico
 touch_icon: img/apple-touch-icon.png
 google_analytics_key: UA-49607422-1
-colors: !ruby/hash:ActionController::Parameters
-  black: "#111112"
+colors:
+  black: "#111111"
   white: "#f8f8f8"
   blue: "#49a7e9"
   green: "#9bcf2f"
   purple: "#c869bf"
   orange: "#fab125"
   turquoise: "#0fbfcf"
-kramdown: !ruby/hash:ActionController::Parameters
+kramdown:
   auto_ids: 'false'
